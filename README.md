@@ -1,7 +1,5 @@
 ## Cinema Service API
 
-___
-
 ### Installation using GitHub
 
 <p>Before you begin, make sure you have Python and PostgreSQL installed on your computer. To do this, run the following commands:</p>
@@ -52,8 +50,6 @@ psql --version
     python manage.py runserver
     ```
 
-___
-
 ### Installation using Docker
 
 <p>Before you begin, make sure you have Docker installed on your computer. To do this, run the following command:</p>
@@ -82,8 +78,6 @@ docker --version
    docker-compose up
    ```
 
-___
-
 ### Getting Access
 
 To get access to Cinema Service API, you need to create a user account and
@@ -92,7 +86,6 @@ obtain an access token.
 <p><strong>User creating</strong> - send a POST request to /api/user/register/ <br>
 <strong>Obtain token</strong> - send a POST request to /api/user/token/</p>
 
-___
 
 ### Features
 
