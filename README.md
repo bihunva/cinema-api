@@ -37,7 +37,7 @@ psql --version
    export DB_NAME=YOUR_DB_NAME
    export DB_USER=YOUR_DB_USER
    export DB_PASSWORD=YOUR_DB_PASSWORD
-   export DB_SECRET_KEY=YOUR_SECRET_KEY
+   export SECRET_KEY=YOUR_SECRET_KEY
    ```
 
 5. Apply all required migrations by running the following command:
